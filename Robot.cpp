@@ -1,5 +1,11 @@
 #include "Robot.h"
 
+Robot::Robot() // <--- Implementación del constructor vacío
+{
+    nombre = "";
+    tipo = "";
+}
+
 Robot::Robot(string n, string t)
 {
     nombre = n;
