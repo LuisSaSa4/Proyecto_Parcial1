@@ -470,3 +470,10 @@ desarrollo de un programa.
 | Daniel Gerardo Guerra Rodriguez | Programador de módulos |
 | Yurik David Alarcon Gutierrez | Tester / QA |
 | Fernando Caleb Roman Zamarripa | Documentador / presentador |
+
+
+## 7.Promts
+![Promt1](img/Prompt1.png)
+![Promt1](img/Promt2.png)
+![Promt1](img/Prompt3.png)
+![Promt1](img/Prompt4.png)
