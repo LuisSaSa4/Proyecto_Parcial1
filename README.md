@@ -426,3 +426,47 @@ Para futuras versiones del proyecto se consideran las siguientes mejoras:
 
  <br>
 
+### 5.2 Lecciones aprendidas
+
+Durante el desarrollo del proyecto se obtuvieron diferentes aprendizajes
+relacionados con la programación orientada a objetos y con el proceso de
+desarrollo de un programa.
+
+- Se comprendió la importancia de identificar las entidades principales de un
+  problema antes de comenzar a programar.
+
+- Se reforzó el uso de clases y objetos para representar elementos de un
+  problema real, como participantes, robots, equipos y batallas.
+
+- Se comprendió la importancia del encapsulamiento mediante el uso de
+  atributos privados y métodos públicos para acceder a la información.
+
+- Se aprendió a utilizar `vector` para almacenar y manejar diferentes
+  cantidades de objetos.
+
+- Se reforzó el uso de archivos `.h` y `.cpp` para organizar y separar las
+  diferentes partes del programa.
+
+- Se comprendió cómo las diferentes clases pueden relacionarse y comunicarse
+  mediante objetos y métodos.
+
+- Se aprendió a utilizar números aleatorios para generar los enfrentamientos
+  y determinar los ganadores de las batallas.
+
+- Se comprendió la importancia de realizar pruebas durante el desarrollo para
+  encontrar errores y mejorar el funcionamiento y presentación del programa.
+
+- Se aprendió que el desarrollo de un programa requiere realizar cambios y
+  mejoras conforme se prueba su funcionamiento.
+<br>
+<br>
+
+## 6. Integrantes
+
+| Integrante | Rol |
+|---|---|
+| Luis Samano Saavedra | Analista / líder de diseño |
+| Jesus Rene Pamanes Ferreira | Programador principal |
+| Daniel Gerardo Guerra Rodriguez | Programador de módulos |
+| Yurik David Alarcon Gutierrez | Tester / QA |
+| Fernando Caleb Roman Zamarripa | Documentador / presentador |
