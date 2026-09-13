@@ -11,7 +11,8 @@ Cada participante deberá registrarse con su nombre y carrera, mientras que cada
 Una vez terminado el registro, el sistema deberá organizar los robots de acuerdo con su disciplina y formar enfrentamientos aleatorios entre robots del mismo tipo. Para cada enfrentamiento se deberá determinar aleatoriamente un ganador.
 
 Finalmente, el programa deberá mostrar la información de los equipos, participantes y robots registrados, así como los resultados de las batallas realizadas.
-
+<br>
+<br>
 
 ### 1.2 Requerimientos funcionales
 
@@ -28,6 +29,7 @@ Finalmente, el programa deberá mostrar la información de los equipos, particip
 | **RF-09** | Informar cuando un robot no tenga rival dentro de su disciplina. |
 | **RF-10** | Mostrar la información de los equipos, participantes y robots registrados. |
 | **RF-11** | Mostrar los resultados de las batallas realizadas. |
+<br>
 
 
 ### 1.3 Entradas y salidas esperadas
@@ -47,6 +49,7 @@ Finalmente, el programa deberá mostrar la información de los equipos, particip
 | Robot sin rival | Se muestra un mensaje indicando que el robot no tiene rival. |
 | Registro completo | Se muestran los equipos, participantes y robots registrados. |
 | Resultados de la competencia | Se muestran las batallas realizadas y sus respectivos ganadores. |
+<br>
 
 
 ### 1.4 Diagrama de flujo o pseudocódigo
@@ -116,6 +119,7 @@ FIN
 ```
 
 ![Diagrama de flujo](img/diagrama_flujo.png)
+<br>
 
 
 ### 1.5 Casos de prueba anticipados
@@ -216,6 +220,8 @@ Representa un enfrentamiento entre dos robots de la competencia.
 
 La clase `Batalla` utiliza objetos de tipo `Robot` para representar a los
 participantes del enfrentamiento.
+<br>
+<br>
 
 ### 2.2 Funciones principales
 
@@ -298,6 +304,7 @@ El comando utilizado para compilar el programa fue:
 ```bash
 g++ -I.h .cpp/*.cpp -o programa.exe
 ```
+<br>
 
 ### 3.2 Ejecución
 
@@ -307,6 +314,7 @@ la terminal de Visual Studio Code utilizando el siguiente comando:
 ```powershell
 .\programa.exe
 ```
+<br>
 
 ### 3.3 Errores de compilación y soluciones
 
@@ -343,6 +351,7 @@ diferentes disciplinas.
 | 5 | Cuatro robots del mismo tipo. | Deben realizarse dos batallas sin robots sin rival. | Se realizaron dos batallas correctamente. | ✓ Aprobado |
 | 6 | Robots de diferentes disciplinas. | Solo deben enfrentarse robots de la misma disciplina. | Los robots fueron separados por disciplina y se enfrentaron correctamente. | ✓ Aprobado |
 | 7 | Ejecutar varias veces la misma competencia. | Los emparejamientos y/o ganadores deben poder cambiar aleatoriamente. | Los emparejamientos y ganadores cambiaron entre ejecuciones. | ✓ Aprobado |
+<br>
 
 ### 4.2 Errores encontrados y soluciones
 
@@ -361,6 +370,7 @@ se fue integrando y probando el sistema.
 | Era necesario determinar aleatoriamente al ganador de cada batalla. | Se creó la clase `Batalla`, encargada de realizar el enfrentamiento y seleccionar al ganador. |
 | La información mostrada durante la ejecución podía resultar confusa. | Se mejoró la presentación de la consola mediante títulos, separadores y mensajes descriptivos. |
 | Durante algunas ejecuciones se presentó un comportamiento inesperado con la entrada de datos, mostrando repetidamente el mensaje de tipo de robot no válido. | Se identificó el comportamiento durante las pruebas y se revisó el proceso de captura y validación de datos. |
+<br>
 
 
 ### 4.3 Optimizaciones
@@ -386,3 +396,33 @@ código y facilitar su funcionamiento y mantenimiento.
 
 - Se utilizaron métodos `get` para acceder a los atributos privados de las
   clases, manteniendo el principio de encapsulamiento.
+<br>
+<br>
+
+## 5. Mantenimiento
+
+  ### 5.1 Mejoras futuras
+
+Para futuras versiones del proyecto se consideran las siguientes mejoras:
+
+- Incorporar herencia entre las clases relacionadas con los diferentes tipos
+  de robots, de acuerdo con los temas que se trabajarán posteriormente en el
+  curso.
+
+- Agregar una interfaz gráfica para facilitar la interacción del usuario con
+  el sistema.
+
+- Implementar un sistema de clasificación que permita registrar los resultados
+  de las batallas y determinar qué robots avanzan a las siguientes etapas.
+
+- Permitir consultar el historial de batallas y resultados de la competencia.
+
+- Mejorar la validación de las entradas para manejar diferentes tipos de
+  datos introducidos incorrectamente por el usuario.
+
+- Implementar un sistema para guardar los registros y resultados de la
+  competencia, permitiendo conservar la información después de cerrar el
+  programa.
+
+ <br>
+
