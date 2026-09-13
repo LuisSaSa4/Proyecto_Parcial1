@@ -308,3 +308,4 @@ la terminal de Visual Studio Code utilizando el siguiente comando:
 .\programa.exe
 ```
 
+### 3.3 Errores de compilación y soluciones
